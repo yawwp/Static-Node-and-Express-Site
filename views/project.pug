@@ -20,15 +20,12 @@ block content
           each value, key in technologies
             li= value
             
-
-        //- Add the href values to the links below
         a.btn-link(href= live) Live Demo
         a.btn-link(href= github) GitHub Repo
 
     .project-img-box.box
-      //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
       each value, key in images 
-        img.project-img(src= value, alt='')
+        img.project-img(src= value, alt='Screen capture of project')
 
     nav.nav
       a(href='/')

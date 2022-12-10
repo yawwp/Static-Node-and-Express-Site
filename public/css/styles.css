@@ -17,12 +17,12 @@ body {
 
 body {
   position: relative;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: ui-rounded;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
   background: #fefefe;
-  background: #000;
+  background: #191600;
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
@@ -32,11 +32,11 @@ article {
 }
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: ui-rounded;
 }
 
 h5{
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: ui-rounded;
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
@@ -114,7 +114,7 @@ nav {
 nav a {
   width: 100%;
   vertical-align: middle;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: ui-rounded;
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 2.5px;
@@ -137,7 +137,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: #191600;
 }
 
 .sidebar-info-box {
@@ -150,8 +150,9 @@ nav a span {
 
 .sidebar .thumbnail {
   width: 100%;
-  max-width: 250px;
+  max-width: 150px;
   border: 4px solid #fff;
+
 }
 
 .dev-intro-box {
@@ -171,7 +172,7 @@ nav a span {
 }
 
 .sidebar a {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: ui-rounded;
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 2.5px;
@@ -242,7 +243,7 @@ nav a span {
 }
 
 .projects-box h5 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: ui-rounded;
   font-weight: 500;
   font-size: 13px;
   letter-spacing: 2.25px;
@@ -260,6 +261,13 @@ nav a span {
   min-width: 100px;
   border: 4px solid #fff;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  transition: all 0.3s;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.cell:hover img {
+  transform: scale(1.01) rotate(5deg);
 }
 
 
@@ -280,13 +288,14 @@ nav a span {
   margin-bottom: 35px;
 }
 
-.project-img {
+.project-img{
   width: 100%;
   max-width: 1065px;
   margin-bottom: 15px;
   border: 4px solid #fff;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
 }
+
 
 .btn-link {
   display: block;
