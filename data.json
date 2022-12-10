@@ -1,0 +1,55 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "A Random Quote Generator",
+            "description":  "A website selecting a quote randomly from an array",
+            "technologies": ["javascript", "DOM"],
+            "live_link": "https://yawwp.github.io/a_random_quote_generator-v1",
+            "github_link": "https://github.com/yawwp/a_random_quote_generator-v1",
+            "images_urls": ["../images/1500x550/0.png"],
+            "thumbnails": "../images/thumbnails/0.png"
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description":  "Demonstration of data paginiation and filtering with javascript",
+            "technologies": ["javascript", "DOM", "functional programming"],
+            "live_link": "https://yawwp.github.io/Data-Pagination-and-Filtering",
+            "github_link": "https://github.com/yawwp/Data-Pagination-and-Filtering",
+            "images_urls": ["../images/1500x550/1.png"],
+            "thumbnails": "../images/thumbnails/1.png"
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description":  "Demonstration of form creation and submition using javascript",
+            "technologies": ["javascript", "DOM", "HTML Forms", "Validators"],
+            "live_link": "https://yawwp.github.io/interactive-form-v3",
+            "github_link": "https://github.com/yawwp/interactive-form-v3",
+            "images_urls": ["../images/1500x550/2.png"],
+            "thumbnails": "../images/thumbnails/2.png"
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description":  "Demonstartion of Objected Oriented Programming with javascript",
+            "technologies": ["javascript", "OOP", "game creation", "DOM", "javascript methods & properties"],
+            "live_link": "https://yawwp.github.io/OOP-Game-Show-App",
+            "github_link": "https://github.com/yawwp/OOP-Game-Show-App",
+            "images_urls": ["../images/1500x550/3.png"],
+            "thumbnails": "../images/thumbnails/3.png"
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Request Project",
+            "description":  "Demonstration of public api request using javascript's fetch method",
+            "technologies": ["javascript", "asynconous", "aysnc/await","fetch"],
+            "live_link": "https://yawwp.github.io/Public-API-Request-Project",
+            "github_link": "https://github.com/yawwp/Public-API-Request-Project",
+            "images_urls": ["../images/1500x550/4.png"],
+            "thumbnails": "../images/thumbnails/4.png"
+        }
+    ]
+}
+

@@ -1,0 +1,18 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    h1 My Portfolio
+
+    p Portfolio description
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each project in projects 
+        .cell
+          a(href= project.live_link)
+            img.thumbnail(src=project.thumbnails, alt="Thumbnail of project")
+            h5= project.project_name
+
