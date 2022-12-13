@@ -11,9 +11,8 @@ const router = express.Router()
 const data = require('../data.json');
 const projects = data.projects;
 
-router.get('/', (req,res,next) => {
+router.get('/', (req,res) => {
     res.redirect('/:id', {projects})
-    next();
 })
 
 router.get("/:id", (req,res) => {

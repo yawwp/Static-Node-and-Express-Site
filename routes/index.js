@@ -7,12 +7,11 @@ const router = express.Router()
 const data = require('../data.json');
 const projects = data.projects;
 
-router.get("/", (req,res,next) => {
+router.get("/", (req,res) => {
     res.render('index', {
         "redirect": `./project`,
         projects
     });
-    next(req.params.id);
 });
 
 module.exports = router;
