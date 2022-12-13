@@ -12,7 +12,7 @@ block content
     .projects-box.box.grid
       each project in projects 
         .cell
-          a(href= project.live_link)
-            img.thumbnail(src=project.thumbnails, alt="Thumbnail of project")
+          a(href= project.path)
+            img.thumbnail(src=project.thumbnails, alt=project.description)
             h5= project.project_name
 

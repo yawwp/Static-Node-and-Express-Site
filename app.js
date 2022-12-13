@@ -35,13 +35,16 @@ app.use((req,res,next)=> {
 app.use((err,req,res,next) => {
     res.status(err.status || 500)
     if (err.status === 404){
+        console.log(`You have a: "${err}" error`);
         res.render('page-not-found',{
             error:{
                 status: err.status,
                 message: err.message
             }
         }) 
-    } else {res.render('error',{
+    } else {
+        console.log(`You have a: "${err}" error`);
+        res.render('error',{
         error:{
             status: 500,
             message: err.message
