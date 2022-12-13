@@ -43,11 +43,12 @@ app.use((err,req,res,next) => {
             }
         }) 
     } else {
-        console.log(`You have a: "${err}" error`);
+        const error500 = new Error("Project Page Not-Found")
+        console.log(`You have a: "${error500}" error`);
         res.render('error',{
         error:{
             status: 500,
-            message: err.message
+            message: error500.message
         }
     })}
 })
